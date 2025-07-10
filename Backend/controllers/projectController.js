@@ -32,7 +32,7 @@ export const createProject = async (req, res) => {
     await project.save();
     res.status(201).json(project);
   } catch (err) {
-    res.status(500).json({ error: 'Failed to create project' });
+    res.status(500).json({ error: err.message });
   }
 };
 

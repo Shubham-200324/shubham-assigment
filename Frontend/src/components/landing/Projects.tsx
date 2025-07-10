@@ -48,9 +48,9 @@ export const Projects = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
           {projects.map((project, idx) => (
             <div key={project._id || idx} className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src={project.image} alt={project.name} className="w-full h-48 object-cover" />
+              <img src={project.image} alt={project.name} className="w-full  h-48 object-cover" />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
+                <h3 className="text-xl text-primary font-semibold mb-2">{project.name}</h3>
                 <p className="text-gray-600">{project.description}</p>
               </div>
             </div>

@@ -78,6 +78,21 @@ export const ListingProcessSection = () => {
           <a href="#" className="text-white hover:text-blue-400"><i className="fab fa-youtube" /></a>
           <a href="#" className="text-white hover:text-blue-400"><i className="fab fa-linkedin" /></a>
         </div>
+         
+         <div className=" flex gap-3">
+         <a href="/#Linkedin">
+         <img src="./Linkedin.svg" alt="" className="bg-white border rounded-md p-1" />
+         </a>
+         <a href="/#instagram">
+         <img src="./Group.svg" alt="" className="bg-white border rounded-md p-1" /></a>
+          <a href="/#Facebook">
+          <img src="./Frame.svg" alt="" className="bg-white border rounded-md p-1" />
+          </a>
+          <a href="/#Twitter">
+          <img src="./Group-1.svg" alt="" className="bg-white border rounded-md p-1" />
+          </a>
+         </div>
+
       </footer>
     </section>
   );
