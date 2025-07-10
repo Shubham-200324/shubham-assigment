@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
 });
 
 // Connect to MongoDB and start server
-mongoose.connect(process.env.MONGODB_URI)
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://flipr:2zBPl01a6v1AcKXa@cluster0.pwg6zql.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => {
     app.listen(PORT, () => {
       console.log(`Server running on port ${PORT}`);
